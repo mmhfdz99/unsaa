@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <!-- 
+  Mau custom web ucapan online? Order di Dika Tutorial aja!
+  Youtube: Deka Tutorial
+  Tiktok: @deka_tutorial
+  Instagram: @deka_tutorial
+  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://dekatutorial.github.io/styleGombalin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://dekatutorial.github.io/stylePopUp.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://dekatutorial.github.io/gmbl/s.js"></script>
+    <title>Unsa Sabrina</title>
+  </head>
+  <body id="body">
+    <div class="preload"><p>Loading dulu . . .</p></div>
+    <div class="open">
+      <div>
+        <div class="lope">
+          <i class="love material-icons-sharp"> favorite </i>
+        </div>
+        <h3>Pencet Lope nya</h3>
+      </div>
+    </div>
+    <div id="bg"></div>
+    <img src="" alt="" id="fotoku" />
+
+    <h2 id="hai">Hallo Unsaaaa</h2>
+    <h3 id="hia">Geser ke samping ya... =></h3>
+
+    <div id="slider">
+      <p>Aku punya tebak-tebakan nih... xixixi</p>
+      <p>Cecak apa yang bisa bikin mati?</p>
+      <p>Cecak nafas lihat senyumanmu... eeaakk</p>
+    
+      <p>Kamu jangan sering ke dapur ya uns</p>
+      <p>soalnya nanti gulanya insecure lihat senyum mu</p>
+
+      <p>Klik kado nya<span>🎁</span></p>
+    </div>
+  </body>
+  <script>
+    musik = "";
+    foto = "stiker.gif";
+    background = "bunga.jpg";
+    noWhatsapp = "";
+
+    async function popUp() {
+      await swalo.fire({
+        title:
+          "Selamat Ulang Tahun Unsaa",
+        imageUrl: "stiker2.gif",
+      });
+
+      await swalo.fire({
+        title: "Semoga yang disemogakan tersemogakan, doa terbaik untukmu",
+        imageUrl: "stiker3.gif",
+      });
+
+      await swalo.fire({
+        title: "Maaf terlambat... xixixi",
+        
+      });
+
+      kirimPesan();
+
+      // Yang mau tanpa wm, custom tampilan, bisa order web ucapan di Deka Tutorial (DM IG @deka_tutorial)
+      // ======================================
+    }
+    DekaTutorial(musik, foto, background, noWhatsapp);
+  </script>
+</html>
